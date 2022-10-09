@@ -1,0 +1,23 @@
+{
+  "name": "worlds-lol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create": "node src/bo1/startPrediction",
+    "collect": "node src/bo1/collectPredictions",
+    "create-bo5": "node src/bo5/startPrediction",
+    "collect-bo5": "node src/bo5/collectPredictions",
+    "bot": "node src/bot",
+    "test": "node test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.2",
+    "node-fetch": "^3.2.10"
+  }
+}
